@@ -1,33 +1,33 @@
-
-#include <bits/stdc++.h>
-
+#include "bits/stdc++.h"
 using namespace std;
 
 int main()
 {
-    vector<int> v(1000);
-    int n ;
-
-    for (size_t i = 0; i < n; i++)
+    int na, nb;
+    int k, m;
+    cin >> na >> nb;
+    cin >> k >> m;
+    int a[na];
+    int b[nb];
+    for (size_t i = 0; i < na; i++)
     {
-        int a;
-        cin >> a;
-        v[a] = 1;
+        cin >> a[i];
     }
-
-    for (size_t i = 0; i < n; i++)
+    for (size_t i = 0; i < nb; i++)
     {
-        int a;
-        cin >> a;
-        v[a]=1;
-
+        cin >> b[i];
     }
-    for (size_t i = 0; i < n; i++)
+    bool found = false;
+    for (size_t i = 0; i < k; i++)
     {
-        int a;
-        cin >> a;
-        v[a]=1;
+        if (a[i] > b[0])
+        {
+            found = true;
+            break;
+        }
     }
-    
-    
+    if (found)
+        cout << "NO";
+    else
+        cout << "YES";
 }
