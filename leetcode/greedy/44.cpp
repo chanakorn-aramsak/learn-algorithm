@@ -3,6 +3,8 @@ class Solution
 public:
     bool isMatch(string s, string p)
     {
+        // เลือกสิ่งที่ดีสุดคือพยายามคิดว่าถ้าเจอตัวที่ไม่ match ให้คิดว่าเป็น * ไว้ก่อน
+        // ถ้า match ให้คิดว่าไม่ใช่ *
         int i = 0, j = 0, star = -1, match = 0;
         while (i < s.size())
         {
