@@ -1,0 +1,23 @@
+โจทย์ Greedy คือ
+ทวนgreedyเก่า
+a57_f3_drainage
+a58_m4_supply
+a60b_mid_p1_buffet
+ex04e1_interval
+ex04e2_fknapsack
+ex04e3_teamwork
+ex04h1_montblanc
+ex04m1_sort
+ex04m2_salesman
+
+state stpace
+-ทวนgraderบท1เก่า
+leetcodeสัก10ข้อ
+https://leetcode.com/tag/backtracking/
+
+https://codeforces.com/problemset/problem/47/D
+https://codeforces.com/contest/143/problem/E
+https://www.spoj.com/problems/ADACROW/
+-grader q4
+
+branch and bound ไม่ต้องมีโจทย์เพราะเป็น algorithm ที่ยากดูแค่คลิปอาจาร์ยพอ
